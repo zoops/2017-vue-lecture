@@ -1,8 +1,23 @@
 <template>
   <div class="todoapp" v-cloak>
-    <inu-todo-header/>
-    <inu-todo-body/>
-    <inu-todo-footer/>
+    <transition appear
+      enter-active-class="animated tada"
+      leave-active-class="animated bounceOutRight">
+      <inu-todo-header/>
+    </transition>
+
+    <transition appear
+      enter-active-class="animated fadeInLeftBig"
+      leave-active-class="animated fadeOutRightBig">
+      <inu-todo-body/>
+    </transition>
+
+    <transition appear
+      enter-active-class="animated fadeInRightBig"
+      leave-active-class="animated fadeOutLeftBig">
+      <inu-todo-footer/>
+    </transition>
+
   </div>
 </template>
 
