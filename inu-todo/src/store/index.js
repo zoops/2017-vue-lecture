@@ -22,7 +22,7 @@ export default new Vuex.Store({
 
       tcount : 0,
       count: 0,
-      msg : 'INUTodoMessage',
+      msg : 'INUTodo',
     },
     getters : {
       filteredTodos(state) {

@@ -10,6 +10,11 @@ export default new Router({
       path: '/',
       name: 'INUTodoMain',
       component: INUTodoMain
+    },
+    {
+      path: '/:visibility',
+      name: 'INUTodoMain',
+      component: INUTodoMain
     }
   ]
 })

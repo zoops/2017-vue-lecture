@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <inu-todo-header/>
-        <inu-todo-body/>
-        <inu-todo-footer/>
-    </div>
+  <div class="todoapp" v-cloak>
+    <inu-todo-header/>
+    <inu-todo-body/>
+    <inu-todo-footer/>
+  </div>
 </template>
 
 <script>
