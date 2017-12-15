@@ -13,3 +13,5 @@
 5. 필요한 사항
    1. WEB 에 대한 지식 
       1. HTTP/HTML/CSS/JAVASCRIPT
+6. INU Todo 라는 예제를 라이브코딩 하면서 모든 단기 강좌를 마칩니다. 
+   고생하셨습니다. 
